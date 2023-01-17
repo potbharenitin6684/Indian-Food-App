@@ -1,0 +1,103 @@
+*{
+    font-family: Tahoma, sans-serif;
+}
+
+#navbar{
+    width: 95%;
+    margin: auto;
+    height: 150px;
+    color: white;
+   background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#navbar>div{
+    /* border: 1px solid yellow; */
+    /* width: 40%; */
+    display: flex;
+    justify-content: center;
+}
+#navbar>div>a{
+color: white;
+text-decoration: none;
+/* display:inline-block; */
+}
+#navbar>#logo{
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+#navbar>#logo>span{
+    /* display: inline; */
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+#navbar>#search_div>input{
+width: 100%;
+height: 50px;
+font-size: 20px;
+border: none;
+border-radius: 7px;
+/* border-bottom-right-radius: none;
+border-bottom-left-radius: 7px;
+border-top-left-radius: 7px; */
+padding: 10px;
+}
+#navbar>#search_div>img{
+    cursor: pointer;
+    border-bottom-right-radius: 7px;
+border-top-right-radius: 7px;
+width: 10%;
+/* border-radius: 7px; */
+}
+#btn_div{
+    cursor: pointer;
+    font-size: 20px;
+}
+#random{
+
+    font-size: 20px;
+}
+#random:hover{
+    cursor: pointer;
+}
+form{
+    width: 25%;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    padding: 10px;
+    border-radius: 10px;
+}
+form label{
+font-size: 20px;
+font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+form input{
+    width: 95%;
+    border-radius: 7px;
+font-size: 20px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+#submit{
+    background-color: rgb(0, 81, 255);
+    border: none;
+    color: white;
+}
+#submit:hover{
+    background-color: orangered;
+}
+P{
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Reciepe</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="logo">
+        <a href="index.html">Indian Food</a
+        ><span>The Perfect Food Recipes</span>
+      </div>
+      <div id="search_div">
+        <!--   oninput="debounce(main, 1000) " -->
+        <input
+          type="text"
+          id="search"
+          oninput="debounce(recipe, 1000)"
+          placeholder="Search Your Favriote Reciepe"
+        />
+      </div>
+      <div onclick="Recipe_of_the()" id="btn_div">Recipe Of the Day</div>
+      <div onclick="randomRec()" id="random">Random Recipe</div>
+      <div id="signup"><a href="signup.html" id="userName">SignUp/LogIn</a>
+        </div>
+    </div>
+
+    <div id="container"></div>
+    <div id="showFullRecipe"></div>
+  </body>
+</html>
+<script src="./index.js"></script>
